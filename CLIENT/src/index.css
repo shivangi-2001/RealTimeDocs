@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 20px;
+  /* color: rgba(255, 255, 255, 0.87); */
+  background-color: #F8F6F4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  min-width:440px;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.textEditor{
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding-top: 3.0rem;
+  padding-left: 2.8rem;
+  padding-right: 1.6rem;
+  caret-color: rgb(12, 12, 80);
+
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  min-height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  background-color: #fff;
+  outline: none;
+}
